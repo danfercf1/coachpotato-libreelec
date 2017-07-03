@@ -12,7 +12,7 @@ ExecStart=/storage/.kodi/addons/service.system.docker/bin/docker run \
           --name=%p \
           -h=libreelec-%p \
           -v=/mnt/wd/Public:/mnt/wd/Public \
-          -v=/storage/%p::/root/.couchpotato \
+          -v=/storage/%p:/root/.couchpotato \
           -p=5050:5050 \
           madtech/couchpotato-armhf:latest
 ExecStop=/storage/.kodi/addons/service.system.docker/bin/docker stop %p
