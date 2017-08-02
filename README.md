@@ -1,4 +1,4 @@
-# Libreelec, Coachpotato service with docker image 
+# Libreelec, Couchpotato service with docker image 
 
 ## Prerequisites:
 *   Docker addon installed from libreelec repositories.
