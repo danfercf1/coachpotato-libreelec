@@ -12,5 +12,5 @@
 *   Check if the container is up: `/storage/.kodi/addons/service.system.docker/bin/docker ps`
 
 ## Usage:
-*   Start the service: `systemctl start coachpotato`
-*   Stop the service: `systemctl stop coachpotato`
+*   Start the service: `systemctl start couchpotato`
+*   Stop the service: `systemctl stop couchpotato`
